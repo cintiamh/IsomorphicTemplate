@@ -65,3 +65,13 @@ $ touch webpack.prod.config.js
 * [webpack.common.config.js](webpack.common.config.js)
 * [webpack.dev.config.js](webpack.dev.config.js)
 * [webpack.prod.config.js](webpack.prod.config.js)
+
+## ESLint
+
+```
+$ npm i -D eslint eslint-loader babel-eslint
+$ ./node_modules/.bin/eslint --init
+$ touch .eslintignore
+```
+
+[.eslintignore](.eslintignore)
